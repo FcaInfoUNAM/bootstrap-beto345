@@ -1,15 +1,26 @@
-Paso1 
-Explica en entregable.txt qué es lo que hace bg-dark y escribe el color hexadecimal del fondo del navbar
-La clase bg-dark es una clase utilitaria de Bootstrap que se utiliza para aplicar un color de fondo oscuro a un elemento. Normalmente se usa en componentes como el navbar, tarjetas o secciones, para darles un estilo oscuro predefinido por el framework.
+¿Qué hace la clase bg-dark?
+La clase bg-dark de Bootstrap aplica un fondo oscuro al elemento, utilizando el color definido en su paleta de colores predeterminada.
 
-En Bootstrap 4 y 5, el color hexadecimal que utiliza bg-dark para el fondo del navbar es:
+Color hexadecimal del fondo bg-dark:
+#212529
 
-#343a40
+¿Qué permite que la contraseña esté oculta en el formulario?
+El atributo type="password" en el input.
+Este tipo de input hace que los caracteres escritos se muestren como puntos o asteriscos para proteger la información del usuario.
 
-Paso 2
-¿qué es lo que permite que en el formulario la contraseña esté oculta?
-Oculta los caracteres escritos.
+¿Dónde deberías agregar CSS en el documento si modificas el estilo de alguna clase?
+Se debe agregar en una etiqueta <style> dentro del <head> o en un archivo CSS externo enlazado después del archivo de Bootstrap para que pueda sobrescribir sus estilos.
 
-Los reemplaza visualmente por puntos o asteriscos.
+¿Bootstrap incorpora algún mecanismo para realizar los cambios del paso 4?
+Sí. Bootstrap incluye clases utilitarias como:
 
-Mantiene el valor real internamente para enviarlo en el formulario.
+bg-* para fondos
+
+text-* para colores de texto
+
+bg-opacity-* para transparencia
+
+btn-* para cambiar colores de botones
+
+También se puede personalizar mediante variables Sass si se trabaja con Bootstrap compilado.
+
